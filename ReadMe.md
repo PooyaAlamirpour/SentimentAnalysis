@@ -3,7 +3,7 @@
 
 ## Deep Learning - Sentiment Analysis
 
-In this repository, I am going to implement a Sentiment Analysis on the IMDB reviews. So based on this project user can put his opinion for each movie he wants, then he will receive a suitable sentiment about it. One of the fantastic parts of this project would be deploying this project into a server as a Web Application. So a user can open a browser and puts his data and gets feedback.
+In this repository, I am going to implement a Sentiment Analysis on the IMDB reviews by using **RNN**. So based on this project user can put his opinion for each movie he wants, then he will receive a suitable sentiment about it. One of the fantastic parts of this project would be deploying this project into a server as a Web Application. So a user can open a browser and puts his data and gets feedback.
 
 ## Installation
 For running this project you should install some requirements such as [Anaconda](http://conda.pydata.org/docs). 
@@ -44,8 +44,19 @@ git clone https://github.com/PooyaAlamirpour/SentimentAnalysis.git
 cd SentimentAnalysis
 jupyter notebook
 ```
-The below image indicates the result
 
+In this project you will have:
+|	File Name	|	Explanation	|
+|--------|---------------------------------------------------------|
+| SageMaker Project.ipynb | It contains all the needed code for implementing this project|
+| train/train.py | Training RNN model |
+| serve/predict.py | It is about how to do a prediction |
+| website/index.html | It is the simple web app|
+
+The below images indicate the result
+
+__Positive Review__
 ![Sample Output][image1]
 
+__Negative Review__
 ![Sample Output][image2]
